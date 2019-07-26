@@ -48,7 +48,7 @@
 							Col.  Tequesquitengo,  C. P. 62915 Mpio. de Jojutla, MOR<br>
 						Tel: 01(734) 347 1339  </p>
 						<p><span class="font-bold">Oficinas en CDMX</span><br>
-						Patriotismo 8, piso 9 Col. Condesa<br>
+						Alfonso Reyes 173, Col. Condesa<br>
 						C.P. 06140 México CDMX<br>
 					Tel: 4630-3510</p>
 					<p><span class="font-bold">Call center: 01 800 444 22-22</span>
@@ -63,15 +63,19 @@
 					<div class="contact-form-result"></div>
 					<form class="nobottommargin" id="template-contactform" name="template-contactform" action="sendContacto.php" method="post">
 						<div class="form-process"></div>
-						<div class="col_one_third">
-							<label for="template-contactform">NOMBRE <small>*</small></label>
+						<div class="col_one_half">
+							<label for="template-contactform">NOMBRE(S) <small>*</small></label>
 							<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
 						</div>
-						<div class="col_one_third">
+						<div class="col_one_half col_last">
+							<label for="template-contactform">APELLIDO <small>*</small></label>
+							<input type="text" id="template-contactform-name" name="template-contactform-last" value="" class="sm-form-control required" />
+						</div>
+						<div class="col_one_half">
 							<label>EMAIL <small>*</small></label>
 							<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
 						</div>
-						<div class="col_one_third col_last">
+						<div class="col_one_half col_last">
 							<label>CELULAR</label>
 							<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
 						</div>

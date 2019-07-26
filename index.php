@@ -122,7 +122,7 @@ grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_
                         
                		 <article class="portfolio-item">
 							<div class="video-wrap">
-                     <iframe width="853" height="480" src="https://www.youtube.com/embed/t8pM_vJilPA?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=me38XvhfOpc" frameborder="0" allowfullscreen volume="0"></iframe>
+                     <iframe width="853" height="480" src="https://www.youtube.com/embed/iMVc1xPxkZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen volume="0"></iframe>
 						</div>
 						</article>
                      </div>

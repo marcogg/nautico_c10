@@ -25,7 +25,7 @@
 							</li>-->
 							<li><a href="departamentos"><div>Departamentos</div></a>
 							</li>
-							<li><a href="cluster10"><div>Nueva Etapa</div></a>
+							<li class="cluster10"><a href="cluster10">Nueva Etapa</a>
 							</li>
 							<li><a href="amenidades"><div>Amenidades</div></a>
 							</li>
