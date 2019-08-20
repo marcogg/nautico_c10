@@ -11,12 +11,7 @@ grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_
 });
 });
 </script>
-<?php
- 
-// grab recaptcha library
-require_once "recaptchalib.php";
- 
-?>
+
 		<?php include("recursos.php"); ?>
 </head>
 

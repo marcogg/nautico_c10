@@ -16024,6 +16024,12 @@ text-shadow:rgba(0,0,0,.1)!important}
 .cluster10{
   background-color:#1a9fa0 !important;
 }
+input, textarea{
+  border: none;
+}
+#datos-contacto a{
+  color:#85f9f4 !important;
+}
 
 
 

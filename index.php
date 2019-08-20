@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php include("recursos.php"); ?>
+
 <html lang="es" xml:lang="es">
 
 <head>
@@ -17,7 +19,7 @@ grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_
 //require_once "recaptchalib.php";
  
 ?>
-		<?php include("recursos.php"); ?>
+
         
 
 </head>
@@ -41,6 +43,18 @@ grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
 						<!--SLIDER DE PROMO-->
+						<div class="swiper-slide" style="background-image: url('images/c10.jpg'); background-position: center top;">
+							<div class="container clearfix">
+								<div class="slider-caption slider-caption-center">
+									<div class="emphasis-title nomargin img-responsive" data-caption-animate="fadeInUp">
+					    <img src="images/frase_c10.png" alt=""/> </div>
+								</div>
+								<!--CAPTION-->
+								<!--<div class="slider-caption">
+									<div data-caption-animate="fadeInUp"> <img src="" alt=""/></div>
+								</div>-->
+							</div>
+						</div>
                         <div class="swiper-slide" style="background-image: url('images/c12.jpg'); background-position: center top;">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">

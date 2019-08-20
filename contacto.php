@@ -10,13 +10,83 @@
 		});
 		});
 		</script>
-		<?php
-		
-		// grab recaptcha library
-		require_once "recaptchalib.php";
-		
-		?>
 		<?php include("recursos.php"); ?>
+		<?php
+		require('constant.php');
+		?>
+		<!--VALIDACION FORMULACIO AJAX-->
+		<script>
+			$(document).ready(function (e){
+				$("#frmContact").on('submit',(function(e){
+					e.preventDefault();
+					$("#mail-status").hide();
+					$('#send-message').hide();
+					$('#loader-icon').show();
+					$.ajax({
+						url: "contact.php",
+						type: "POST",
+						dataType:'json',
+						data: {
+						"name":$('input[name="name"]').val(),
+						"email":$('input[name="email"]').val(),
+						"phone":$('input[name="phone"]').val(),
+						"content":$('textarea[name="content"]').val(),
+										"g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
+						success: function(response){
+						$("#mail-status").show();
+						$('#loader-icon').hide();
+						if(response.type == "error") {
+							$('#send-message').show();
+											$("#mail-status").attr("class","error");
+						} else if(response.type == "message"){
+							$('#send-message').hide();
+														$("#mail-status").attr("class","success");
+						}
+							$("#mail-status").html(response.text);
+						},
+						error: function(){}
+					});
+				}));
+			});
+		</script>
+		<!--FIN VALIDACION FORMULARIO AJAX-->
+		<!--Estilos FORMULARIO-->
+	<style>
+	.label {margin: 0 0;}
+	.field {margin-top: 20px; border-radius: 15px; border: 3px solid #e4e4e4;}	
+		.content {width: 960px;margin: 0 auto;}
+		h1, h2 {font-weight: normal;}
+		div#central {margin: 40px 0px 100px 0px;}
+		@media all and (min-width: 768px) and (max-width: 979px) {.content {width: 750px;}}
+		@media all and (max-width: 767px) {
+			body {margin: 0 auto;word-wrap:break-word}
+			.content {width:auto;}
+			div#central {	margin: 40px 20px 100px 20px;}
+		}
+		body {background:#ffffff;margin: 0 auto;-webkit-font-smoothing: antialiased;  font-size: initial;line-height: 1.7em;}	
+		input, textarea {width:100%;padding: 15px;font-size:1em; color: #333;	}
+		button {
+			padding: 12px 60px;
+			background: #5BC6FF;
+			border: none;
+			color: rgb(40, 40, 40);
+			font-size:1em;
+			cursor: pointer;	
+		}
+		#message {  padding: 0px 40px 0px 0px; }
+		#mail-status {
+			padding: 12px 20px;
+			width: 100%;
+			display:none; 
+			font-size: 1em;
+			color: rgb(40, 40, 40);
+		}
+	  .error{background-color: #F7902D;  margin-bottom: 40px;}
+	  .success{background-color: #48e0a4; }
+		.g-recaptcha {margin: 0 0 25px 0;}	  
+	</style>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!--FIN ESTILOS FORMULARIO-->
 	</head>
 	<body class="stretched">
 		<!-- Document Wrapper
@@ -38,7 +108,7 @@
 						
 					</div>
 				</div>
-								<div class="section nomargin noborder nopadding bgcolor">
+				<div class="section nomargin noborder nopadding bgcolor" id="datos-contacto">
 					
 					<div class="row" >
 						<div class="col-md-6 col-padding">
@@ -48,102 +118,88 @@
 							Col.  Tequesquitengo,  C. P. 62915 Mpio. de Jojutla, MOR<br>
 						Tel: 01(734) 347 1339  </p>
 						<p><span class="font-bold">Oficinas en CDMX</span><br>
-						Alfonso Reyes 173, Col. Condesa<br>
-						C.P. 06140 México CDMX<br>
-					Tel: 4630-3510</p>
-					<p><span class="font-bold">Call center: 01 800 444 22-22</span>
+						Tejocotes no. 160, 1er piso. Col. Tlacoquemecatl Del Valle, Cd de México<br>
+					Tel: <a href="tel:5546303510">55-4630-3510</a></p>
+					<p><span class="font-bold">Call center: <a href="tel:800 444 22-22">800 444 22-22</a></span>
 				</p>
 			</div>
 			
 			<div class="col-md-6 col-padding" style="background-color:#FFF">
 				
 				<h2>Envíanos tus datos y nosotros nos pondremos en contacto contigo</h2>
-				<div class="postcontent nobottommargin">
-					
-					<div class="contact-form-result"></div>
-					<form class="nobottommargin" id="template-contactform" name="template-contactform" action="sendContacto.php" method="post">
-						<div class="form-process"></div>
-						<div class="col_one_half">
-							<label for="template-contactform">NOMBRE(S) <small>*</small></label>
-							<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
-						</div>
-						<div class="col_one_half col_last">
-							<label for="template-contactform">APELLIDO <small>*</small></label>
-							<input type="text" id="template-contactform-name" name="template-contactform-last" value="" class="sm-form-control required" />
-						</div>
-						<div class="col_one_half">
-							<label>EMAIL <small>*</small></label>
-							<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
-						</div>
-						<div class="col_one_half col_last">
-							<label>CELULAR</label>
-							<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
-						</div>
-						<div class="clear"></div>
-						<div class="col_two_third">
-							<label for="template-contactform">CIUDAD DE RESIDENCIA <small>*</small></label>
-							<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
-						</div>
-						<div class="clear"></div>
-						<div class="col_two_third">
-							<label for="template-contactform">ASUNTO <small>*</small></label>
-							<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
-						</div>
-						<div class="clear"></div>
-						<div class="col_full">
-							<label for="template-contactform">MENSAJE <small>*</small></label>
-							<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
-						</div>
-						<div class="col_full hidden">
-							<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-						</div>
-						<div class="col_full">
-							<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">ENVIAR</button>
-						</div>
-					</form>
-					
-					</div><!-- .postcontent end -->
-					
-					
-				</div>
+				
+					<div id="message">
+						<form id="frmContact" action="" method="POST" novalidate="novalidate">
+							<div class="row">
+								<div class="field col-lg-6 col-md-6 col-sm-12 col-12">
+									<input class="required" style="padding: 1%;" type="text" id="name" name="name" placeholder="Nombre(s)" title="Ingrese un nombre" aria-required="true" required>
+								</div>
+								<div class="field col-lg-6 col-md-6 col-sm-12 col-12">
+									<input class="required" style="padding: 1%;" type="text" id="last" name="last" placeholder="Apellido" title="Ingrese su apellido" aria-required="true" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="field col-lg-6 col-md-6 col-sm-12 col-12">
+									<input class="required email" style="padding: 1%;" type="text" id="email" name="email" placeholder="Email" title="Ingrese un correo" aria-required="true" required>
+								</div>
+								<div class="field col-lg-6 col-md-6 col-sm-12 col-12">
+									<input class="required phone" style="padding: 1%;" type="text" id="phone" name="phone" placeholder="Teléfono" title="Ingrese un teléfono" aria-required="true" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="field col-lg-12 col-md-12 col-sm-12 col-12">
+									<textarea style="padding: 1%;" id="comment-content" name="content" placeholder="Mensaje" cols="5" rows="5"></textarea>
+								</div>
+							</div>
+							<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
+							<div id="mail-status"></div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+								<button class="button" type="Submit" id="send-message" style="clear:both;">Enviar</button>
+							</div>
+						</form>
+						<div id="loader-icon" style="display:none;"><img src="images/loader.gif" /></div>
+					</div>
+				</form>
+				
+				</div><!-- .postcontent end -->
+				
+				
 			</div>
 		</div>
-				<!--MAPA DE CONTACTO---------------------->
-				<div class="section nomargin">
-					<div class="container clearfix">
-						<h1 class="text-center">Ubicación</h1>
-						
-					</div>
-				</div>
-				<a class="button button-blue button-full center">
-					<div class="container clearfix">
-						A TAN SOLO 2 HRS. DE LA CIUDAD DE MÉXICO
-					</div>
-				</a>
-				<div class="section parallax dark nomargin" style="background-image: url('');  background-size: contain; padding: 0px 0;" data-stellar-background-ratio="0.4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1890.754590112397!2d-99.259352!3d18.596154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDM1JzQ3LjAiTiA5OcKwMTUnMzMuOSJX!5e0!3m2!1ses-419!2smx!4v1486666956400"
-					width="auto" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-
-		
-	</section>
-	
-	<!-- aviso  ============================================= -->
+	</div>
+	<!--MAPA DE CONTACTO---------------------->
 	<div class="section nomargin">
 		<div class="container clearfix">
-			© 2017 Club Náutico Teques. El diseño, superficies, decoración, imágenes y mobiliario, son solo ilustrativas y podrían tener modificaciones sin previo aviso. Por lo tanto, no constituye un compromiso, obligación y oferta comercial o legal de la empresa vendedora.
-		</div></div>
-		<!-- Footer
-		============================================= -->
-		<?php include("footer.php"); ?>
-		</div><!-- #wrapper end -->
-		<!-- Go To Top
-		============================================= -->
-		<div id="gotoTop" class="ti-angle-up"></div>
-		<!--JavaScripts
-		============================================= -->
-		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/functions.js"></script>
-	</body>
+			<h1 class="text-center text-uppercase">Ubicación</h1>
+			
+		</div>
+	</div>
+	<a class="button button-blue button-full center">
+		<div class="container clearfix">
+			A TAN SOLO 2 HRS. DE LA CIUDAD DE MÉXICO
+		</div>
+	</a>
+		<div class="section parallax dark nomargin" style="background-size: cover; padding: 0px 0;" data-stellar-background-ratio="0.4">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6359.710553416669!2d-99.26437448589277!3d18.596273806453897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd4b92580a83d%3A0x3b8da1f1aea2ffd0!2sClub+N%C3%A1utico+Teques!5e0!3m2!1ses!2smx!4v1566328483956!5m2!1ses!2smx" style="width: 100%; height: 700px;" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+</section>
+
+<!-- aviso  ============================================= -->
+<div class="section nomargin">
+	<div class="container clearfix">
+		© 2017 Club Náutico Teques. El diseño, superficies, decoración, imágenes y mobiliario, son solo ilustrativas y podrían tener modificaciones sin previo aviso. Por lo tanto, no constituye un compromiso, obligación y oferta comercial o legal de la empresa vendedora.
+	</div></div>
+	<!-- Footer
+	============================================= -->
+	<?php include("footer.php"); ?>
+	</div><!-- #wrapper end -->
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="ti-angle-up"></div>
+	<!--JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+</body>
 </html>

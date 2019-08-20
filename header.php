@@ -11,8 +11,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="http://clubnauticoteques.com" class="standard-logo"><img src="images/logo.png" alt="Logo"></a>
-						<a href="http://clubnauticoteques.com" class="retina-logo"><img src="images/logo.png" alt="Logo"></a>
+						<a href="index.php" class="standard-logo"><img src="images/logo.png" alt="Logo"></a>
+						<a href="index.php" class="retina-logo"><img src="images/logo.png" alt="Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -23,8 +23,8 @@
 							</li>
 						<!-- 	<li><a href="casas"><div>Casas</div></a>
 							</li>-->
-							<li><a href="departamentos"><div>Departamentos</div></a>
-							</li>
+							<!--<li><a href="departamentos"><div>Departamentos</div></a>
+							</li>-->
 							<li class="cluster10"><a href="cluster10">Nueva Etapa</a>
 							</li>
 							<li><a href="amenidades"><div>Amenidades</div></a>

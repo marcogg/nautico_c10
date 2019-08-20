@@ -32,11 +32,11 @@
 						</div>
 
                         <div class="clearfix">
-                        Tel: 4630-3510 &nbsp; &#124; &nbsp;
-                        ventas@clubnauticoteques.com.mx  &nbsp; &#124; &nbsp;
+                        Tels: <a href="tel:55 4630 3510">55-4630-3510</a> / <a href="tel:800 444 22 22">800 444 22-22</a> &nbsp; &#124; &nbsp;
+                        <a href="mailto:ventas@clubnauticoteques.com.mx">ventas@clubnauticoteques.com.mx</a>  &nbsp; &#124; &nbsp;
                          <a href="privacidad.php">Aviso de privacidad</a>
                          <br><img src="images/thumbs/logo_hodaya.png" alt="hodaya"/><br>
-                         © 2017 Club Náutico Teques, derechos reservados
+                         © 2019 Club Náutico Teques, derechos reservados
 			 </div>
 			</div><!-- #copyrights end -->
 

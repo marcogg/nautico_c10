@@ -11,12 +11,7 @@ grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_
 });
 });
 </script>
-<?php
- 
-// grab recaptcha library
-require_once "recaptchalib.php";
- 
-?>
+
 	</head>
 	<body class="stretched" data-loader="1">
 		<!-- Document Wrapper
@@ -50,9 +45,9 @@ require_once "recaptchalib.php";
 					</a>
 				
 
-					<a href="images/mecanica-buen-fin.jpg" data-lightbox="gallery-item">
+					<!--<a href="images/mecanica-buen-fin.jpg" data-lightbox="gallery-item">
 						<img src="images/mecanica-buen-fin.jpg" alt="Gallery Image"  style="padding:10px">
-					</a>
+					</a>-->
 					
 					
 				</div>
