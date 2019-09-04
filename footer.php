@@ -33,12 +33,22 @@
 
                         <div class="clearfix">
                         Tels: <a href="tel:55 4630 3510">55-4630-3510</a> / <a href="tel:800 444 22 22">800 444 22-22</a> &nbsp; &#124; &nbsp;
-                        <a href="mailto:ventas@clubnauticoteques.com.mx">ventas@clubnauticoteques.com.mx</a>  &nbsp; &#124; &nbsp;
+                        <a href="mailto:ventas@clubnauticoteques.com">ventas@clubnauticoteques.com</a>  &nbsp; &#124; &nbsp;
                          <a href="privacidad.php">Aviso de privacidad</a>
                          <br><img src="images/thumbs/logo_hodaya.png" alt="hodaya"/><br>
                          © 2019 Club Náutico Teques, derechos reservados
 			 </div>
 			</div><!-- #copyrights end -->
+			<!--BUTTON WHATSAPP-->
+<div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
+	<div style="margin: auto; display: block; position: relative; top: 18%">
+		<a href="https://wa.me/525573552395">
+			<i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
+		</a>
+	</div>
+	
+</div>
+<!--FIN BUTTON WHATSAPP-->
 
 		</footer><!-- #footer end -->
         

@@ -4545,7 +4545,7 @@ overflow:hidden}
 .portfolio-item .portfolio-image,.portfolio-item .portfolio-image a,.portfolio-item 
 .portfolio-image img{display:block;
 width:100%;
-height:auto}
+height:auto;}
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .portfolio-image img{-webkit-transition:all .2s ease-in-out;
 -o-transition:all .2s ease-in-out;
@@ -9562,7 +9562,7 @@ body:not(.device-touch) #gotoTop{transition:background-color .2s linear;
 -webkit-transition:background-color .2s linear;
 -o-transition:background-color .2s linear}
 
-.stretched #gotoTop{bottom:30px}
+.stretched #gotoTop{bottom:0;}
 
 #gotoTop:hover{background-color:#1ABC9C}
 

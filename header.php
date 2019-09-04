@@ -1,6 +1,8 @@
 <!-- Header
 		============================================= -->
 		<header id="header" class="full-header">
+			<!--Font Awesome-->
+		<script src="https://kit.fontawesome.com/7c9178a2fa.js"></script>
 
 			<div id="header-wrap">
 
@@ -23,8 +25,8 @@
 							</li>
 						<!-- 	<li><a href="casas"><div>Casas</div></a>
 							</li>-->
-							<!--<li><a href="departamentos"><div>Departamentos</div></a>
-							</li>-->
+							<li><a href="departamentos"><div>Departamentos</div></a>
+							</li>
 							<li class="cluster10"><a href="cluster10">Nueva Etapa</a>
 							</li>
 							<li><a href="amenidades"><div>Amenidades</div></a>

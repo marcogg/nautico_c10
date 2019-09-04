@@ -23,11 +23,12 @@
 					$('#send-message').hide();
 					$('#loader-icon').show();
 					$.ajax({
-						url: "contact.php",
+						url: "contact_form.php",
 						type: "POST",
 						dataType:'json',
 						data: {
 						"name":$('input[name="name"]').val(),
+						"last":$('input[name="last"]').val(),
 						"email":$('input[name="email"]').val(),
 						"phone":$('input[name="phone"]').val(),
 						"content":$('textarea[name="content"]').val(),
