@@ -33,6 +33,8 @@
 							</li>
 							<li><a href="desarrollo"><div>Desarrollo</div></a>
 							</li>
+							<li><a href="avances"><div>Avances de obra</div></a>
+							</li>
 							<li><a href="promociones"><div>Promociones</div></a>
 							</li>
 							<li><a href="contacto"><div>Contacto</div></a>

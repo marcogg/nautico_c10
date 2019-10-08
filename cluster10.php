@@ -26,7 +26,7 @@
 			============================================= -->
 			<?php include("header.php"); ?>
 			<!-- ============================================= -->
-			<div class="section parallax nomargin" style="background-image: url('images/cluster10_2.jpg'); background-size:cover; background-repeat: no-repeat; height: 100vh; background-position: center top " data-stellar-background-ratio="0.8">
+			<div class="section parallax nomargin" style="background-image: url('images/c10/acercamiento.jpg'); background-size:cover; background-repeat: no-repeat; height: 100vh; background-position: center top " data-stellar-background-ratio="0.8">
 			</div>
 			
 			<!--------------- CASAS ---------------------->
@@ -271,16 +271,16 @@
 					</div>
 					<div class="masonry-thumbs col-3 clearfix" data-big="1" data-lightbox="gallery">
 						
-						<a href="images/c10/acercamiento.jpg" data-lightbox="gallery-item">
-							<img src="images/c10/acercamiento.jpg" alt="Departamentos">
+						<a href="images/c10/fachada_rejas.jpg" data-lightbox="gallery-item">
+							<img src="images/c10/fachada_rejas.jpg" alt="Departamentos">
 							<div class="overlay"><div class="overlay-wrap"><i><img src="images/thumbs/icon-zoom.png" alt="ver"/></i></div></div>
 						</a>
 						<a href="images/c10/fachada_posterior.jpg" data-lightbox="gallery-item">
 							<img src="images/c10/fachada_posterior.jpg" alt="Departamentos">
 							<div class="overlay"><div class="overlay-wrap"><i><img src="images/thumbs/icon-zoom.png" alt="ver"/></i></div></div>
 						</a>
-						<a href="images/c10/fachada_rejas.jpg" data-lightbox="gallery-item">
-							<img src="images/c10/fachada_rejas.jpg" alt="Departamentos">
+						<a href="images/cluster10_2.jpg" data-lightbox="gallery-item">
+							<img src="images/cluster10_2.jpg" alt="Departamentos">
 							<div class="overlay"><div class="overlay-wrap"><i><img src="images/thumbs/icon-zoom.png" alt="ver"/></i></div></div>
 						</a>
 						<a href="images/c10/roof1.jpg" data-lightbox="gallery-item">

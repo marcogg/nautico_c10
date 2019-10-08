@@ -2858,10 +2858,10 @@ margin-left:2px}
 
 #primary-menu ul li>a{display:block;
 line-height:22px;
-padding:39px 15px;
+padding:39px 8px;
 color:#fff;
 font-weight:700;
-font-size:13px;
+font-size:10px;
 letter-spacing:1px;
 text-transform:uppercase;
 -webkit-transition:margin .4s ease,padding .4s ease;
