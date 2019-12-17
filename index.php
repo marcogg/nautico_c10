@@ -57,7 +57,7 @@
 									</div>-->
 								</div>
 							</div>
-							<div class="swiper-slide dark" style="background-image: url('images/banner_home.png');">
+							<div class="swiper-slide dark" style="background-image: url('images/banner_home.jpg');">
 								<div class="container clearfix">
 									<div class="slider-caption slider-caption-center">
 										<div class="emphasis-title nomargin img-responsive" data-caption-animate="fadeInUp">
@@ -66,13 +66,13 @@
 								</div>
 							</div>
 
-							<div class="swiper-slide" style="background-image: url('images/banner_referidos.png'); background-position: center top;">
-															<!--<div class="container clearfix">
+							<!--<div class="swiper-slide" style="background-image: url('images/banner_referidos.png'); background-position: center top;">
+															<div class="container clearfix">
 										<div class="slider-caption">
 												<div data-caption-animate="fadeInUp"> <img src="images/frase1.png" alt=""/></div>
 										</div>
-								</div>-->
-							</div>
+								</div>
+							</div>-->
 							
 							<div class="swiper-slide dark">
 								<div class="video-wrap">
@@ -80,7 +80,7 @@
 								</div>
 							</div>
 							
-							<div class="swiper-slide" style="background-image: url('images/banner_home3.png'); background-position: center top;">
+							<div class="swiper-slide" style="background-image: url('images/banner_home3.jpg'); background-position: center top;">
 								<div class="container clearfix">
 									<div class="slider-caption">
 										<div data-caption-animate="fadeInUp"> <img src="images/frase1.png" alt=""/></div>
