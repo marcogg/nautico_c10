@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="es" xml:lang="es">
 	<head>
+		<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WP5WS4Q');</script>
+<!-- End Google Tag Manager -->
+
 		<script src='https://www.google.com/recaptcha/api.js?render=6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q'></script>
 		<script>
 		grecaptcha.ready(function() {
@@ -19,6 +27,11 @@
 		<?php include("recursos.php"); ?>
 	</head>
 	<body class="stretched" data-loader="1">
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP5WS4Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 		<!-- Document Wrapper
 		============================================= -->
 		<div id="wrapper" class="clearfix">
@@ -256,7 +269,27 @@
 					
 					<!-- FIN DEPAS -->
 					
-					
+					<!--Recorrido virtual-->
+					<section>
+						<div class="c-container">
+					<div class="row">
+						<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-12" style="height: 400px;">
+							<div style="margin: auto; position: relative; top: 35%; line-height: 0;">
+								<h2 class="text-uppercase text-center" style="font-size: 3em; line-height: 0;">Conoce el prototipo <br></h2> 
+								
+								<hr style="bottom-border:5px #1abc9c solid; ">
+								<p class="text-uppercase text-center">Haz el recorrido virtual del prototipo Garden de Club Náutico Teques.</p>
+								<a href="panoramas/garden/index.html" class="button btn-block text-center">Iniciar recorrido virtual</a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12" style="background-image:url('images/recorrido.jpg'); background-size: cover; height: 400px; background-repeat: no-repeat; ">
+						</div>
+						
+					</div>
+				</div>
+					</section>
+	
+					<!--fin: recorrido virtual-->
 					
 					
 					
