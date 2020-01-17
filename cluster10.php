@@ -9,7 +9,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WP5WS4Q');</script>
 <!-- End Google Tag Manager -->
 
-		<script src='https://www.google.com/recaptcha/api.js?render=6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q'></script>
+		<!--<script src='https://www.google.com/recaptcha/api.js?render=6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q'></script>
 		<script>
 		grecaptcha.ready(function() {
 		grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_name'})
@@ -17,7 +17,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		// Verify the token on the server.
 		});
 		});
-		</script>
+		</script>-->
 		<?php
 		
 		// grab recaptcha library
@@ -349,7 +349,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div id="gotoTop" class="ti-angle-up"></div>
 					<!--JavaScripts
 					============================================= -->
-					<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+					<!--<script type="text/javascript" src="js/jquery-1.12.4.js"></script>-->
 					<script type="text/javascript" src="js/jquery.js"></script>
 					<script type="text/javascript" src="js/functions.js"></script>
 				</body>
