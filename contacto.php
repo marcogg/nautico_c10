@@ -1,108 +1,97 @@
 <!DOCTYPE html>
+<?php include("recursos.php");
+		require('constant.php');
+?>
 <html lang="es" xml:lang="es">
 	<head>
 		<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WP5WS4Q');</script>
-<!-- End Google Tag Manager -->
-
-		<script src='https://www.google.com/recaptcha/api.js?render=6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q'></script>
-		<script>
-		grecaptcha.ready(function() {
-		grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_name'})
-		.then(function(token) {
-		// Verify the token on the server.
-		});
-		});
-		</script>
-		<?php include("recursos.php"); ?>
-		<?php
-		require('constant.php');
-		?>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WP5WS4Q');</script>
+		<!-- End Google Tag Manager -->
+		<script src="component/jquery/jquery-3.2.1.min.js"></script>
 		<!--VALIDACION FORMULACIO AJAX-->
 		<script>
-			$(document).ready(function (e){
-				$("#frmContact").on('submit',(function(e){
-					e.preventDefault();
-					$("#mail-status").hide();
-					$('#send-message').hide();
-					$('#loader-icon').show();
-					$.ajax({
-						url: "contact_form.php",
-						type: "POST",
-						dataType:'json',
-						data: {
-						"name":$('input[name="name"]').val(),
-						"last":$('input[name="last"]').val(),
-						"email":$('input[name="email"]').val(),
-						"phone":$('input[name="phone"]').val(),
-						"content":$('textarea[name="content"]').val(),
-										"g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
-						success: function(response){
-						$("#mail-status").show();
-						$('#loader-icon').hide();
-						if(response.type == "error") {
-							$('#send-message').show();
-											$("#mail-status").attr("class","error");
-						} else if(response.type == "message"){
-							$('#send-message').hide();
-														$("#mail-status").attr("class","success");
-						}
-							$("#mail-status").html(response.text);
-						},
-						error: function(){}
-					});
-				}));
-			});
+		$(document).ready(function (e){
+			$("#frmContact").on('submit',(function(e){
+				e.preventDefault();
+				$("#mail-status").hide();
+				$('#send-message').hide();
+				$('#loader-icon').show();
+				$.ajax({
+					url: "contact_form.php",
+					type: "POST",
+					dataType:'json',
+					data: {
+					"name":$('input[name="name"]').val(),
+					"last":$('input[name="last"]').val(),
+					"email":$('input[name="email"]').val(),
+					"phone":$('input[name="phone"]').val(),
+					"content":$('textarea[name="content"]').val(),
+									"g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
+					success: function(response){
+					$("#mail-status").show();
+					$('#loader-icon').hide();
+					if(response.type == "error") {
+						$('#send-message').show();
+										$("#mail-status").attr("class","error");
+					} else if(response.type == "message"){
+						$('#send-message').hide();
+													$("#mail-status").attr("class","success");
+					}
+						$("#mail-status").html(response.text);
+					},
+					error: function(){}
+				});
+			}));
+		});
 		</script>
 		<!--FIN VALIDACION FORMULARIO AJAX-->
 		<!--Estilos FORMULARIO-->
-	<style>
-	.label {margin: 0 0;}
-	.field {margin-top: 20px; border-radius: 15px; border: 3px solid #e4e4e4;}	
-		.content {width: 960px;margin: 0 auto;}
-		h1, h2 {font-weight: normal;}
-		div#central {margin: 40px 0px 100px 0px;}
-		@media all and (min-width: 768px) and (max-width: 979px) {.content {width: 750px;}}
-		@media all and (max-width: 767px) {
-			body {margin: 0 auto;word-wrap:break-word}
-			.content {width:auto;}
-			div#central {	margin: 40px 20px 100px 20px;}
-		}
-		body {background:#ffffff;margin: 0 auto;-webkit-font-smoothing: antialiased;  font-size: initial;line-height: 1.7em;}	
-		input, textarea {width:100%;padding: 15px;font-size:1em; color: #333;	}
-		button {
-			padding: 12px 60px;
-			background: #5BC6FF;
-			border: none;
-			color: rgb(40, 40, 40);
-			font-size:1em;
-			cursor: pointer;	
-		}
-		#message {  padding: 0px 40px 0px 0px; }
-		#mail-status {
-			padding: 12px 20px;
-			width: 100%;
-			display:none; 
-			font-size: 1em;
-			color: rgb(40, 40, 40);
-		}
-	  .error{background-color: #F7902D;  margin-bottom: 40px;}
-	  .success{background-color: #48e0a4; }
-		.g-recaptcha {margin: 0 0 25px 0;}	  
-	</style>
+		<style>
+		.label {margin: 0 0;}
+			.field {margin-top: 20px; border-radius: 15px; border: 3px solid #e4e4e4;}
+			.content {width: 960px;margin: 0 auto;}
+			h1, h2 {font-weight: normal;}
+			div#central {margin: 40px 0px 100px 0px;}
+			@media all and (min-width: 768px) and (max-width: 979px) {.content {width: 750px;}}
+			@media all and (max-width: 767px) {
+				body {margin: 0 auto;word-wrap:break-word}
+				.content {width:auto;}
+					div#central {	margin: 40px 20px 100px 20px;}
+			}
+				body {background:#ffffff;margin: 0 auto;-webkit-font-smoothing: antialiased;  font-size: initial;line-height: 1.7em;}
+				input, textarea {width:100%;padding: 15px;font-size:1em; color: #333;	}
+			button {
+				padding: 12px 60px;
+				background: #5BC6FF;
+				border: none;
+				color: rgb(40, 40, 40);
+				font-size:1em;
+					cursor: pointer;
+			}
+			#message {  padding: 0px 40px 0px 0px; }
+			#mail-status {
+				padding: 12px 20px;
+				width: 100%;
+				display:none;
+				font-size: 1em;
+				color: rgb(40, 40, 40);
+			}
+		.error{background-color: #F7902D;  margin-bottom: 40px;}
+		.success{background-color: #48e0a4; }
+				.g-recaptcha {margin: 0 0 25px 0;}
+		</style>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!--FIN ESTILOS FORMULARIO-->
 	</head>
 	<body class="stretched">
 		<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP5WS4Q"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP5WS4Q"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		<!-- Document Wrapper
 		============================================= -->
 		<div id="wrapper" class="clearfix">
@@ -133,15 +122,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						Tel: 01(734) 347 1339  </p>
 						<p><span class="font-bold">Oficinas en CDMX</span><br>
 						Tejocotes no. 160, 1er piso. Col. Tlacoquemecatl Del Valle, Cd de México<br>
-					Tel: <a href="tel:5546303510">55-4630-3510</a></p>
-					<p><span class="font-bold">Call center: <a href="tel:800 444 22-22">800 444 22-22</a></span>
-				</p>
-			</div>
-			
-			<div class="col-md-6 col-padding" style="background-color:#FFF">
+						Tel: <a href="tel:5546303510">55-4630-3510</a></p>
+						<p><span class="font-bold">Call center: <a href="tel:800 444 22-22">800 444 22-22</a></span>
+					</p>
+				</div>
 				
-				<h2>Envíanos tus datos y nosotros nos pondremos en contacto contigo</h2>
-				
+				<div class="col-md-6 col-padding" style="background-color:#FFF">
+					
+					<h2>Envíanos tus datos y nosotros nos pondremos en contacto contigo</h2>
+					
 					<div id="message">
 						<form id="frmContact" action="" method="POST" novalidate="novalidate">
 							<div class="row">
@@ -149,7 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<input class="required" style="padding: 1%;" type="text" id="name" name="name" placeholder="Nombre(s)" title="Ingrese un nombre" aria-required="true" required>
 								</div>
 								<div class="field col-lg-6 col-md-6 col-sm-12 col-12">
-									<input class="required" style="padding: 1%;" type="text" id="last" name="last" placeholder="Apellido" title="Ingrese su apellido" aria-required="true" required>
+									<input class="required" style="padding: 1%;" type="text" id="last" name="last" placeholder="Apellido" title="Ingrese su apellido" aria-required="true">
 								</div>
 							</div>
 							<div class="row">
@@ -193,11 +182,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			A TAN SOLO 2 HRS. DE LA CIUDAD DE MÉXICO
 		</div>
 	</a>
-		<div class="section parallax dark nomargin" style="background-size: cover; padding: 0px 0;" data-stellar-background-ratio="0.4">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6359.710553416669!2d-99.26437448589277!3d18.596273806453897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd4b92580a83d%3A0x3b8da1f1aea2ffd0!2sClub+N%C3%A1utico+Teques!5e0!3m2!1ses!2smx!4v1566328483956!5m2!1ses!2smx" style="width: 100%; height: 700px;" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
+	<div class="section parallax dark nomargin" style="background-size: cover; padding: 0px 0;" data-stellar-background-ratio="0.4">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6359.710553416669!2d-99.26437448589277!3d18.596273806453897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd4b92580a83d%3A0x3b8da1f1aea2ffd0!2sClub+N%C3%A1utico+Teques!5e0!3m2!1ses!2smx!4v1566328483956!5m2!1ses!2smx" style="width: 100%; height: 700px;" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 </section>
-
 <!-- aviso  ============================================= -->
 <div class="section nomargin">
 	<div class="container clearfix">
