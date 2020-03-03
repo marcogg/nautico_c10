@@ -10,15 +10,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WP5WS4Q');</script>
 <!-- End Google Tag Manager -->
 
-		<script src='https://www.google.com/recaptcha/api.js?render=6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q'></script>
-		<script>
+		<!--<script src='https://www.google.com/recaptcha/api.js?render=6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q'></script>-->
+		<!--<script>
 		grecaptcha.ready(function() {
 		grecaptcha.execute('6LfmYXkUAAAAAIcla8TDfE8Jbsyx3nZjoMD6Tf8Q', {action: 'action_name'})
 		.then(function(token) {
 		// Verify the token on the server.
 		});
 		});
-		</script>
+		</script>-->
 		<?php
 		
 		// grab recaptcha library
@@ -195,7 +195,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="col-sm-3 col-sm-12 bottommargin">
 								<div class="ipost clearfix">
 									<div class="entry-image">
-										<a href="http://clubnauticoteques.com/blog/10-tips-para-bucear-en-el-lago-de-tequesquitengo-para-principiantes/"><img src="http://clubnauticoteques.com/blog/wp-content/uploads/2017/02/10-tips-para-bucear-en-el-lago-de-tequesquitengo_respiracion-699x373.jpg" alt="Image"></a>
+										<a href="https://clubnauticoteques.com/blog/10-tips-para-bucear-en-el-lago-de-tequesquitengo-para-principiantes/"><img src="https://clubnauticoteques.com/blog/wp-content/uploads/2017/02/10-tips-para-bucear-en-el-lago-de-tequesquitengo_respiracion-699x373.jpg" alt="Image"></a>
 									</div>
 									<div class="entry-content">
 										<p>10 Tips para bucear en el lago de Tequesquitengo para principiantes<br></p>
@@ -205,7 +205,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="col-sm-3 col-sm-12 bottommargin">
 								<div class="ipost clearfix">
 									<div class="entry-image">
-										<a href="http://clubnauticoteques.com/blog/20-actividades-que-puedes-hacer-en-tequesquitengo-y-no-sabias/"><img src="http://clubnauticoteques.com/blog/wp-content/uploads/2017/02/paracaidismo-699x390.png" alt="Image"></a>
+										<a href="https://clubnauticoteques.com/blog/20-actividades-que-puedes-hacer-en-tequesquitengo-y-no-sabias/"><img src="https://clubnauticoteques.com/blog/wp-content/uploads/2017/02/paracaidismo-699x390.png" alt="Image"></a>
 									</div>
 									<div class="entry-content">
 										<p>20 Actividades que puedes hacer en Tequesquitengo y no sabías</p>
@@ -258,7 +258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div id="gotoTop" class="ti-angle-up"></div>
 						<!--JavaScripts
 						============================================= -->
-						<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+						<!--<script type="text/javascript" src="js/jquery-1.12.4.js"></script>-->
 						<script type="text/javascript" src="js/jquery.js"></script>
 						<script type="text/javascript" src="js/functions.js"></script>
 					</body>

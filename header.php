@@ -21,7 +21,7 @@
 					============================================= -->
 					<nav id="primary-menu">
 						<ul>
-							<li><a href="http://clubnauticoteques.com"><div>Bienvenidos</div></a>
+							<li><a href="https://clubnauticoteques.com"><div>Bienvenidos</div></a>
 							</li>
 						<!-- 	<li><a href="casas"><div>Casas</div></a>
 							</li>-->
@@ -39,7 +39,7 @@
 							</li>
 							<li><a href="contacto"><div>Contacto</div></a>
 							</li>							
-                            <li><a href="http://clubnauticoteques.com/blog/" target="_blank"><div>Blog</div></a>
+                            <li><a href="https://clubnauticoteques.com/blog/" target="_blank"><div>Blog</div></a>
 							</li>
 						</ul>
 					</nav><!-- #primary-menu end -->

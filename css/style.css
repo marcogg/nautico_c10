@@ -3073,7 +3073,7 @@ transition:width .3s ease}
 
 #primary-menu.style-6>div>ul>li.current>a:after,#primary-menu.style-6>div>ul>li:hover>a:after,#primary-menu.style-6>ul>li.current>a:after,#primary-menu.style-6>ul>li:hover>a:after{width:100%}
 
-#primary-menu.sub-title.style-2>div>ul>li,#primary-menu.sub-title>ul>li{background:url(http://canvashtml-cdn.semicolonweb.com/images/icons/menu-divider.png) right center no-repeat;
+#primary-menu.sub-title.style-2>div>ul>li,#primary-menu.sub-title>ul>li{background:url(https://canvashtml-cdn.semicolonweb.com/images/icons/menu-divider.png) right center no-repeat;
 margin-left:1px}
 
 #primary-menu.sub-title ul li:first-child{padding-left:0;
@@ -3912,7 +3912,7 @@ body.side-panel-open .body-overlay{opacity:1;
 z-index:298;
 pointer-events:auto}
 
-body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-overlay:hover{cursor:url(http://canvashtml-cdn.semicolonweb.com/images/icons/close.png) 15 15,default}
+body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-overlay:hover{cursor:url(https://canvashtml-cdn.semicolonweb.com/images/icons/close.png) 15 15,default}
 
 #slider{width:100%}
 
@@ -3997,7 +3997,7 @@ height:500px}
 width:100%;
 height:100%;
 margin:0;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/pattern2.png)}
+background:url(https://canvashtml-cdn.semicolonweb.com/images/pattern2.png)}
 
 .swiper_wrapper .swiper-slide{position:relative;
 margin:0;
@@ -4106,7 +4106,7 @@ height:100%;
 top:0;
 left:0;
 z-index:5;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/grid.png)}
+background:url(https://canvashtml-cdn.semicolonweb.com/images/grid.png)}
 
 .video-placeholder{z-index:4;
 background-repeat:no-repeat!important}
@@ -4366,7 +4366,7 @@ left:0!important;
 right:0!important;
 margin:20px 0 0!important}
 
-#page-title.page-title-pattern{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/pattern.png);
+#page-title.page-title-pattern{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/pattern.png);
 background-repeat:repeat;
 background-attachment:fixed}
 
@@ -4374,7 +4374,7 @@ background-attachment:fixed}
 text-shadow:none;
 border-bottom:none;
 background-color:transparent;
-background-image:url(http://canvashtml-cdn.semicolonweb.com/images/parallax/parallax-bg.jpg);
+background-image:url(https://canvashtml-cdn.semicolonweb.com/images/parallax/parallax-bg.jpg);
 background-attachment:fixed;
 background-position:50% 0;
 background-repeat:no-repeat}
@@ -7233,7 +7233,7 @@ left:-2px;
 padding:2px;
 z-index:-1;
 box-shadow:none;
-background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/iconalt.svg);
+background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/iconalt.svg);
 background-position:center center;
 background-size:100% 100%;
 -webkit-transition:-webkit-transform .5s,opacity .5s,background-color .5s;
@@ -7457,7 +7457,7 @@ color:#444}
 color:#444;
 box-shadow:inset 0 0 15px rgba(0,0,0,.2)}
 
-.i-alt{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/iconalt.svg);
+.i-alt{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/iconalt.svg);
 background-position:center center;
 background-size:100% 100%}
 
@@ -7547,7 +7547,7 @@ height:100%!important;
 top:0;
 left:0;
 text-align:center;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/grid.png) rgba(0,0,0,.2)}
+background:url(https://canvashtml-cdn.semicolonweb.com/images/grid.png) rgba(0,0,0,.2)}
 
 .i-overlay a{background:0 0}
 
@@ -8944,7 +8944,7 @@ overflow:hidden;
 -webkit-transform:translate3d(0,0,0)}
 
 .owl-carousel.owl-loading{min-height:100px;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/preloader.gif) center center no-repeat}
+background:url(https://canvashtml-cdn.semicolonweb.com/images/preloader.gif) center center no-repeat}
 
 .owl-carousel .owl-refresh .owl-item{display:none}
 
@@ -9010,7 +9010,7 @@ left:50%;
 top:50%;
 margin-left:-32px;
 margin-top:-32px;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/icons/play.png) no-repeat;
+background:url(https://canvashtml-cdn.semicolonweb.com/images/icons/play.png) no-repeat;
 cursor:pointer;
 z-index:1;
 -webkit-transition:scale .1s ease;
@@ -9428,7 +9428,7 @@ background:0 0;
 padding:0 0 10px;
 border-bottom:2px solid #1ABC9C}
 
-.fancy-title.title-dotted-border{background:url(http://canvashtml-cdn.semicolonweb.com/images/icons/dotted.png) center repeat-x}
+.fancy-title.title-dotted-border{background:url(https://canvashtml-cdn.semicolonweb.com/images/icons/dotted.png) center repeat-x}
 
 .before-heading{display:block;
 margin:0 0 5px;
@@ -9616,7 +9616,7 @@ overflow:hidden}
 .form-process,.preloader,.preloader2{display:block;
 width:100%;
 height:100%;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/preloader.gif) center center no-repeat #FFF}
+background:url(https://canvashtml-cdn.semicolonweb.com/images/preloader.gif) center center no-repeat #FFF}
 
 .preloader2{background-color:transparent}
 
@@ -9844,10 +9844,10 @@ margin:0}
 padding:0 3px 0 12px}
 
 .widget_recent_comments li{display:block;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment.png) left top no-repeat;
+background:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment.png) left top no-repeat;
 padding:4px 0 4px 20px}
 
-.widget_archive li a,.widget_categories li a,.widget_links li a,.widget_meta li a,.widget_nav_menu li a,.widget_pages li a,.widget_recent_comments li a,.widget_recent_entries li a,.widget_rss li a{background:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-link.png) left top no-repeat;
+.widget_archive li a,.widget_categories li a,.widget_links li a,.widget_meta li a,.widget_nav_menu li a,.widget_pages li a,.widget_recent_comments li a,.widget_recent_entries li a,.widget_rss li a{background:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-link.png) left top no-repeat;
 border:none!important;
 color:#444;
 font-size:14px}
@@ -10901,7 +10901,7 @@ border-color:#1ABC9C #3F3F3F #3F3F3F}
 #primary-menu.dark ul ul li:hover>a,.dark #primary-menu:not(.not-dark) ul ul li:hover>a{background-color:rgba(0,0,0,.1);
 color:#CCC!important}
 
-#primary-menu.dark ul ul>li.sub-menu:hover>a,#primary-menu.dark ul ul>li.sub-menu>a,.dark #primary-menu:not(.not-dark) ul ul>li.sub-menu:hover>a,.dark #primary-menu:not(.not-dark) ul ul>li.sub-menu>a{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/submenu-dark.png)}
+#primary-menu.dark ul ul>li.sub-menu:hover>a,#primary-menu.dark ul ul>li.sub-menu>a,.dark #primary-menu:not(.not-dark) ul ul>li.sub-menu:hover>a,.dark #primary-menu:not(.not-dark) ul ul>li.sub-menu>a{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/submenu-dark.png)}
 
 #primary-menu.dark ul li .mega-menu-content.style-2 ul.mega-menu-column>li.mega-menu-title:hover>a,#primary-menu.dark ul li .mega-menu-content.style-2 ul.mega-menu-column>li.mega-menu-title>a,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content.style-2 ul.mega-menu-column>li.mega-menu-title:hover>a,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content.style-2 ul.mega-menu-column>li.mega-menu-title>a{color:#BBB!important;
 background:0 0}
@@ -10977,7 +10977,7 @@ text-shadow:none}
 
 .dark .breadcrumb a:hover{color:#EEE}
 
-.dark #page-title.page-title-pattern{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/pattern2.png)}
+.dark #page-title.page-title-pattern{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/pattern2.png)}
 
 .dark .portfolio-filter li a{color:#999;
 border-left-color:rgba(255,255,255,.08)}
@@ -11062,7 +11062,7 @@ background-color:rgba(0,0,0,.2)}
 .dark .comment-avatar{background:rgba(255,255,255,.08);
 border-color:rgba(255,255,255,.1)}
 
-.dark .form-process,.dark .owl-carousel.owl-loading,.dark .preloader,.dark .preloader2{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/preloader-dark.gif)}
+.dark .form-process,.dark .owl-carousel.owl-loading,.dark .preloader,.dark .preloader2{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/preloader-dark.gif)}
 
 .dark .comment-content .comment-author{color:#CCC}
 
@@ -11471,10 +11471,10 @@ color:#FFF!important}
 
 .dark .img-thumbnail,.dark .show-grid [class^=col-],.dark fieldset{border-color:rgba(255,255,255,.1)}
 
-.dark .widget_recent_comments li{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment-dark.png)}
+.dark .widget_recent_comments li{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment-dark.png)}
 
 .dark .widget_archive li a,.dark .widget_categories li a,.dark .widget_links li a,.dark .widget_meta li a,.dark .widget_nav_menu li a,.dark .widget_pages li a,.dark .widget_recent_comments li a,.dark .widget_recent_entries li a,.dark .widget_rss li a{color:#CCC;
-background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-link-dark.png)}
+background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-link-dark.png)}
 
 .dark .widget_archive li a:hover,.dark .widget_categories li a:hover,.dark .widget_links li a:hover,.dark .widget_meta li a:hover,.dark .widget_nav_menu li a:hover,.dark .widget_pages li a:hover,.dark .widget_recent_comments li a:hover,.dark .widget_recent_entries li a:hover,.dark .widget_rss li a:hover{color:#AAA}
 
@@ -11812,7 +11812,7 @@ border-left:1px solid rgba(255,255,255,.05)!important}
 
 .dark #primary-menu:not(.not-dark) ul li,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content ul ul,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content.col-2>ul,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content.col-3>ul,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content.col-4>ul,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content.col-5>ul,.dark #primary-menu:not(.not-dark) ul li .mega-menu-content.style-2 li,.dark #primary-menu:not(.not-dark) ul ul,.dark #primary-menu:not(.not-dark) ul ul li{border-top-color:rgba(255,255,255,.1)!important}
 
-.dark #primary-menu:not(.not-dark)>.container>ul>li.sub-menu>a,.dark #primary-menu:not(.not-dark)>ul>li.sub-menu>a{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/submenu-dark.png)}
+.dark #primary-menu:not(.not-dark)>.container>ul>li.sub-menu>a,.dark #primary-menu:not(.not-dark)>ul>li.sub-menu>a{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/submenu-dark.png)}
 
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li .mega-menu-content,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li .mega-menu-content ul ul,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li .mega-menu-content.col-2>ul,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li .mega-menu-content.col-3>ul,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li .mega-menu-content.col-4>ul,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li .mega-menu-content.col-5>ul,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul li .mega-menu-content.style-2 li,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul ul,body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul ul li{border-top-color:#EEE!important}
 
@@ -11847,24 +11847,24 @@ line-height:inherit;
 src:url(css/font-awesome.min.css);
 src:url(css/font-awesome.min.css) format('embedded-opentype'),
 url(css/font-awesome.min.css) format('woff'),
-url(http://canvashtml-cdn.semicolonweb.com/css/fonts/font-icons.ttf) format('truetype'),
-url(http://canvashtml-cdn.semicolonweb.com/css/fonts/font-icons.svg) format('svg');
+url(https://canvashtml-cdn.semicolonweb.com/css/fonts/font-icons.ttf) format('truetype'),
+url(https://canvashtml-cdn.semicolonweb.com/css/fonts/font-icons.svg) format('svg');
 font-weight:400;font-style:normal}
 
 @font-face{font-family:lined-icons;
 src:url(https://example.com/MaterialIcons-Regular.eot);
-src:url(http://canvashtml-cdn.semicolonweb.com/css/fonts/lined-icons.eot) format('embedded-opentype'),
+src:url(https://canvashtml-cdn.semicolonweb.com/css/fonts/lined-icons.eot) format('embedded-opentype'),
 url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
 url(https://example.com/MaterialIcons-Regular.ttf) format('truetype'),
-url(http://canvashtml-cdn.semicolonweb.com/css/fonts/lined-icons.svg) format('svg');
+url(https://canvashtml-cdn.semicolonweb.com/css/fonts/lined-icons.svg) format('svg');
 font-weight:400;font-style:normal}
 
 @font-face{font-family:Simple-Line-Icons;
-src:url(http://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.eot);
-src:url(http://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.eot?#iefix) format('embedded-opentype'),
-url(http://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.woff) format('woff'),
-url(http://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.ttf) format('truetype'),
-url(http://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.svg#Simple-Line-Icons) format('svg');
+src:url(https://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.eot);
+src:url(https://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.eot?#iefix) format('embedded-opentype'),
+url(https://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.woff) format('woff'),
+url(https://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.ttf) format('truetype'),
+url(https://canvashtml-cdn.semicolonweb.com/css/fonts/Simple-Line-Icons.svg#Simple-Line-Icons) format('svg');
 font-weight:400;font-style:normal}
 
 .side-header #primary-menu ul>li.sub-menu>a:after,[class*=" icon-"],
@@ -14354,7 +14354,7 @@ top:50%;
 left:50%;
 width:24px;
 height:24px;
-background:url(http://canvashtml-cdn.semicolonweb.com/images/preloader-dark.gif) center center no-repeat;
+background:url(https://canvashtml-cdn.semicolonweb.com/images/preloader-dark.gif) center center no-repeat;
 text-align:center;
 margin-top:-12px;
 margin-left:-12px;
@@ -14889,7 +14889,7 @@ text-shadow:none}
 
 #primary-menu ul:not(.windows-mobile-menu) li>a i.icon-angle-down:last-child{display:none}
 
-#primary-menu>.container>ul>li.sub-menu>a,#primary-menu>ul>li.sub-menu>a{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/submenu.png);
+#primary-menu>.container>ul>li.sub-menu>a,#primary-menu>ul>li.sub-menu>a{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/submenu.png);
 background-position:right center;
 background-repeat:no-repeat}
 
@@ -15754,20 +15754,20 @@ max-width:100%}
 
 #header.split-menu #logo a.retina-logo{display:inline-block}
 
-.form-process,.owl-carousel.owl-loading,.preloader,.preloader2{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/preloader@2x.gif);
+.form-process,.owl-carousel.owl-loading,.preloader,.preloader2{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/preloader@2x.gif);
 background-size:24px 24px}
 
-.dark .form-process,.dark .owl-carousel.owl-loading,.dark .preloader,.dark .preloader2{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/preloader-dark@2x.gif)}
+.dark .form-process,.dark .owl-carousel.owl-loading,.dark .preloader,.dark .preloader2{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/preloader-dark@2x.gif)}
 
-.widget_recent_comments li{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment@2x.png);
+.widget_recent_comments li{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment@2x.png);
 background-size:15px 26px}
 
-.widget_archive li a,.widget_categories li a,.widget_links li a,.widget_meta li a,.widget_nav_menu li a,.widget_pages li a,.widget_recent_comments li a,.widget_recent_entries li a,.widget_rss li a{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-link@2x.png);
+.widget_archive li a,.widget_categories li a,.widget_links li a,.widget_meta li a,.widget_nav_menu li a,.widget_pages li a,.widget_recent_comments li a,.widget_recent_entries li a,.widget_rss li a{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-link@2x.png);
 background-size:4px 20px}
 
-.dark .widget_recent_comments li{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment-dark@2x.png)}
+.dark .widget_recent_comments li{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-comment-dark@2x.png)}
 
-.dark .widget_archive li a,.dark .widget_categories li a,.dark .widget_links li a,.dark .widget_meta li a,.dark .widget_nav_menu li a,.dark .widget_pages li a,.dark .widget_recent_comments li a,.dark .widget_recent_entries li a,.dark .widget_rss li a{background-image:url(http://canvashtml-cdn.semicolonweb.com/images/icons/widget-link-dark@2x.png)}
+.dark .widget_archive li a,.dark .widget_categories li a,.dark .widget_links li a,.dark .widget_meta li a,.dark .widget_nav_menu li a,.dark .widget_pages li a,.dark .widget_recent_comments li a,.dark .widget_recent_entries li a,.dark .widget_rss li a{background-image:url(https://canvashtml-cdn.semicolonweb.com/images/icons/widget-link-dark@2x.png)}
 
 }
 
