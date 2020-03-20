@@ -119,11 +119,11 @@
 							<p><span class="font-bold">Desarrollo Residencial Club Náutico Teques</span><br>
 							Circuito circunvalación s/n, 5.a sección,<br>
 							Col.  Tequesquitengo,  C. P. 62915 Mpio. de Jojutla, MOR<br>
-						Tel: 01(734) 347 1339  </p>
+						</p>
 						<p><span class="font-bold">Oficinas en CDMX</span><br>
 						Tejocotes no. 160, 1er piso. Col. Tlacoquemecatl Del Valle, Cd de México<br>
-						Tel: <a href="tel:5546303510">55-4630-3510</a></p>
-						<p><span class="font-bold">Call center: <a href="tel:800 444 22-22">800 444 22-22</a></span>
+						</p>
+						<p><span class="font-bold">Teléfono: <a href="tel:7774540165">77 7454 0165</a></span>
 					</p>
 				</div>
 				

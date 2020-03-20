@@ -35,7 +35,7 @@ if(isset($_POST['mail'])) {
     $first_name = $_POST['first_name']; // required
     //$last_name = $_POST['last_name']; // required
     $email_from = $_POST['mail']; // required
-    $telephone = $_POST['telephone']; // not required
+    $telephone = $_POST['telephone']; // required
     //$comments = $_POST['comments']; // required
     //$estado = $_POST['estado']; //not required
     //$selected_val=$_POST['estado'];
@@ -44,7 +44,7 @@ if(isset($_POST['mail'])) {
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
   if(!preg_match($email_exp,$email_from)) {
-    $error_message .= '<script type="text/javascript">alert("El email ingresado parece ser no válido");
+    $error_message .= '<script type="text/javascript">alert("El email ingresado no es válido");
     window.location.href = "index.php";</script>';
   }
  

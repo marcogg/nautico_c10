@@ -80,7 +80,11 @@
 												<input type="text" placeholder="Nombre Completo*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
 											</div>
 											<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-											<input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required> </div>
+												<input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+												<input type="text" placeholder="Teléfono*" class="form-control c-square c-theme input-lg mt-3" name="telephone" id="telephone" required style="margin-top: 10px;">
+											</div>
 										</div>
 										<!--<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 												<input type="text" placeholder="Apellido*" class="form-control c-square c-theme input-lg" name="last_name" id="last_name" required>
@@ -89,10 +93,10 @@
 									
 								
 								
-								<div class="form-group">
+								<!--<div class="form-group">
 									<p>Compártenos tu teléfono para una asesoría telefónica (opcional)</p>
-									<input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg" name="telephone" id="telephone">
-								</div>
+									
+								</div>-->
 								<!--<div class="form-group">
 										<label>Estado de residencia</label>
 										<select id="estado" name="estado" class="input-lg form-control c-square c-theme">
