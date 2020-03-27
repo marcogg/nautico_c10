@@ -3,7 +3,7 @@
 if(isset($_POST['mail'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "digital@grupohodaya.com, mgarcia@grupohodaya.com";
+    $email_to = "digital@grupohodaya.com, mgarcia@grupohodaya.com, rcruz@grupohodaya.com";
     $email_subject = "Nueva entrada desde Descarga de Brochure Cluster 10";
  
     function died($error) {
