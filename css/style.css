@@ -5704,7 +5704,7 @@ margin-right:15px}
 
 #comments{position:relative;
 margin-top:50px;
-padding-top:50px;
+/*padding-top:50px;*/
 border-top:1px solid #EEE}
 
 .commentlist{list-style:none;
@@ -16029,6 +16029,108 @@ input, textarea{
 }
 #datos-contacto a{
   color:#85f9f4 !important;
+}
+
+.encabezado{
+  letter-spacing: 0;
+
+}
+
+.conocenos{
+  background-color: #124889;
+  padding:5%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border:2px solid #124889;
+  line-height: 3;
+  text-transform: uppercase;
+}
+.conocenos:hover{
+  background-color: transparent;
+  padding:5%;
+  color: #124889;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border:2px solid #124889;
+    line-height: 3;
+  text-transform: uppercase;
+}
+
+.siguenos{
+  background-color: #18BCBA;
+  padding:5%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border:2px solid #18BCBA;
+  line-height: 3;
+  text-transform: uppercase;
+}
+.siguenos:hover{
+  background-color: transparent;
+  padding:5%;
+  color: #18BCBA;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border:2px solid #18BCBA;
+    line-height: 3;
+  text-transform: uppercase;
+}
+
+.llamanos{
+  background-color: #18BCBA;
+  padding:1%;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border:2px solid #18BCBA;
+  line-height: 3;
+  text-transform: uppercase;
+}
+.llamanos:hover{
+  background-color: transparent;
+  padding:1%;
+  color: #18BCBA;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border:2px solid #18BCBA;
+    line-height: 3;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 998px){
+
+  .call-to-action{
+    background-color: #ffffffab;
+    box-shadow: 3px 22px 25px rgba(0,0,0,.3);
+    font-size: 1.7rem;
+    font-weight: 400;
+    position: relative;
+    top: 180px;
+    left: 10%;
+    padding: 5%;
+    z-index: 50;
+    border: 8px solid #18bcba;
+    color: #18bcba;
+
+  }
+}
+
+@media screen and (max-width: 998px){
+
+  .call-to-action{
+    background-color: #ffffffab;
+    box-shadow: 3px 22px 25px rgba(0,0,0,.3);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 14%;
+    z-index: 50;
+    border: 8px solid #18bcba;
+    color: #18bcba;
+    margin-top: 40px
+
+  }
 }
 
 

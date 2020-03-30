@@ -4,7 +4,7 @@ if(isset($_POST['mail'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "digital@grupohodaya.com, mgarcia@grupohodaya.com, rcruz@grupohodaya.com";
-    $email_subject = "Club Náutico teques: Nueva entrada desde Descarga de Brochure";
+    $email_subject = "Club Náutico: Nueva entrada desde Formulario de Contacto";
  
     function died($error) {
         // your error code can go here
@@ -24,7 +24,7 @@ if(isset($_POST['mail'])) {
         //!isset($_POST['last_name']) ||
         !isset($_POST['mail']) ||
         !isset($_POST['telephone']) //||
-        //!isset($_POST['comments'])
+        !isset($_POST['comments'])
       )
          {
         died('Ha ocurrido un error, intente más tarde.');       
@@ -36,7 +36,7 @@ if(isset($_POST['mail'])) {
     //$last_name = $_POST['last_name']; // required
     $email_from = $_POST['mail']; // required
     $telephone = $_POST['telephone']; // required
-    //$comments = $_POST['comments']; // required
+    $comments = $_POST['comments']; // required
     //$estado = $_POST['estado']; //not required
     //$selected_val=$_POST['estado'];
  
@@ -60,10 +60,10 @@ if(isset($_POST['mail'])) {
     window.location.href = "index.php";</script>';
   }*/
  
-  /*if(strlen($comments) < 2) {
+  if(strlen($comments) < 2) {
     $error_message .= '<script type="text/javascript">alert("El mensaje no tien un formato válido<br />");
     window.location.href = "index.html";</script>';
-  }*/
+  }
  
   if(strlen($error_message) > 0) {
     died($error_message);
@@ -82,7 +82,7 @@ if(isset($_POST['mail'])) {
     $email_message .= "Apellido: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Tel: ".clean_string($telephone)."\n";
-    $email_message .= "Estado: ".clean_string($selected_val)."\n";
+    $email_message .= "Mensaje: ".clean_string($comments)."\n";
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
@@ -96,7 +96,7 @@ $headers .='Content-type: text/html; charset=UTF-8' . "\r\n";
 <!-- include your own success html here -->
 
 <script type="text/javascript">
-  window.location.href = "gracias_folleto.php";
+  window.location.href = "gracias_contacto.php";
 </script>
 
 

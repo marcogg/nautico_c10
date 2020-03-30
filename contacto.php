@@ -131,7 +131,35 @@
 					
 					<h2>Envíanos tus datos y nosotros nos pondremos en contacto contigo</h2>
 					
-					<div id="message">
+					<form action="formulario_contacto.php" method="post" name="contactform" onsubmit="return submitUserForm();">
+									<div class="form-group">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+												<input type="text" placeholder="Nombre Completo*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+												<input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required style="margin-top: 10px;">
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+												<input type="text" placeholder="Teléfono*" class="form-control c-square c-theme input-lg mt-3" name="telephone" id="telephone" required style="margin-top: 10px;">
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+												<textarea placeholder="Mensaje:* " class="form-control c-square c-theme input-lg mt-3" style="margin-top: 10px;" name="comments" id="comments"required></textarea>
+											</div>
+										</div>
+									</div>
+								<div class="row mt-5">
+									<div class="col-lg-12 text-center">
+										<p style="color: #4F4F4F;"><small>*Campos requeridos</small></p>
+										<br>
+									</div>
+								</div>
+								
+								<!--<div class="g-recaptcha" data-sitekey="6LeAmYwUAAAAAHxjByS3bni_UxmcQzuAl5zB4ZOt"></div>-->
+								<input type="submit" name="submit_brochure" value="Enviar" class="button btn-block">
+								
+							</form>
+					<!--<div id="message">
 						<form id="frmContact" action="" method="POST" novalidate="novalidate">
 							<div class="row">
 								<div class="field col-lg-6 col-md-6 col-sm-12 col-12">
@@ -161,9 +189,9 @@
 							</div>
 						</form>
 						<div id="loader-icon" style="display:none;"><img src="images/loader.gif" /></div>
-					</div>
+					
 				</form>
-				
+				</div>-->
 				</div><!-- .postcontent end -->
 				
 				

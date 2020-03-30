@@ -38,6 +38,18 @@
                          <br><img src="images/thumbs/logo_hodaya.png" alt="hodaya"/><br>
                          © 2020 Club Náutico Teques, derechos reservados
 			 </div>
+			 <div class="row">
+			 	<div class="col-lg-12">
+			 		<ul class="list-inline" style="color: #5ba9ec;">
+			 			<li>#DepaEnMorelos </li>
+			 			<li>#InmueblesMorelos </li>
+			 			<li>#DepartamentosNuevosEnVenta</li>
+			 			<li>#DepaEnTeques</li>
+			 			<li>#InmuebleEnVenta</li>
+			 			<li>#Tequesquitengo</li>
+			 		</ul>
+			 	</div>
+			 </div>
 			</div><!-- #copyrights end -->
 			<!--BUTTON WHATSAPP-->
 <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">

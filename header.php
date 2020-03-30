@@ -47,5 +47,7 @@
 				</div>
 
 			</div>
+			<meta name="description" content="Venta de Departamentos con Vista al Lago de Tequesquitengo en Morelos, Residencial Club Náutico Teques de Grupo Hodaya ">
+			<meta name="keywords" content="Venta de Departamentos, departamentos Lago de Tequesquitengo, departamentos en Morelos, desarrollos en Morelos, Casas de descanso, casas con alberca, casas en teques, depas en teques, inmuebles en venta morelos, lago de tequesquitengo, departamentos con amenidades, airbnb, inversión ">
 
 		</header><!-- #header end -->

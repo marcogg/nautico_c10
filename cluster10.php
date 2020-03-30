@@ -51,6 +51,7 @@
 						<p class="text-center text-lg-center">
 							Conoce la nueva etapa del Residencial Club Náutico Teques, con 56 viviendas y amenidades exclusivas.<br>
 						4 cómodos departamentos por edificio con roof garden o jardín privado</p>
+						<p class="text-center text-lg-center">Departamentos de 3 recámaras con Jardín o Roof Garden desde 72.82 m², <br>con amenidades de lujo y <b>acceso inmejorable al Lago de Tequesquitengo</b> en Morelos.  </p>
 						<div class="text-center">
 							<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
 						</div>
@@ -280,7 +281,7 @@
 		<div class="row">
 			<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-12" style="height: 400px;">
 				<div style="margin: auto; position: relative; top: 35%; line-height: 0;">
-					<h2 class="text-uppercase text-center" style="font-size: 3em; line-height: 0;">Conoce el prototipo <br></h2>
+					<h2 class="text-uppercase text-center" style="font-size: 2em; line-height: 0;">Conoce el prototipo <br></h2>
 					
 					<hr style="bottom-border:5px #1abc9c solid; ">
 					<p class="text-uppercase text-center">Haz el recorrido virtual del prototipo Garden de Club Náutico Teques.</p>
@@ -293,6 +294,17 @@
 		</div>
 	</div>
 </section>
+<!--BEGIN: CALL TO ACTION-->
+<section>
+	<div class="container-full" style="background-size: cover; background-attachment: fixed; background-image: url('images/departamento-tequesquitengo.jpg'); padding:10%; height: 500px;">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h3 style="color: white; border:5px solid white; padding: 5%; text-align: center;">Disfruta cada mañana de LA MEJOR VISTA del Lago de Tequesquitengo</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<!--END: CALL TO ACTION-->
 
 <!--fin: recorrido virtual-->
 
@@ -336,6 +348,14 @@
 	
 	
 </div>
+<section>
+	<div class="row">
+		<div class="col-lg-12 text-center" style="padding-top: 4%;">
+			<h3>Invierte en una casa de descanso que PUEDE PAGARSE SOLA</h3>
+		</div>
+	</div>
+	
+</section>
 <!-- FIN GALERIA -->
 <!-- aviso  ============================================= -->
 <div class="section nomargin">

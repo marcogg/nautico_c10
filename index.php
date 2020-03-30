@@ -125,21 +125,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</section>
 			<!-- Content
 			============================================= -->
+
 			<section id="content">
 				<div class="content">
 					
 					<div id="portfolio" class="portfolio portfolio-nomargin clearfix">
 						
-						
+						<div class="row">
+							<div class="col-lg-8 col-lg-offset-2" style="padding-top: 5%;">
+								<h1 class="encabezado text-center">Venta de Departamentos con Vista al Lago de Tequesquitengo en Morelos
+									<br><span style="color: #989898; font-weight: 100;">Residencial Club Náutico Teques de Grupo Hodaya</span></h1>
+							</div>
+						</div>
 						
 						<div class="clearfix">
 							<article class="portfolio-item">
 								<div class="col-padding"><br>
-									<h2 lead nobottommargin>En la orilla del lago de <span class="font-bold">
+									<h3 lead nobottommargin>En la orilla del lago de <span class="font-bold">
 									Tequesquitengo, </span><br>
 									en completa armonía con la naturaleza,<br>
 									hemos diseñado para ti <br>
-									<span class="font-bold">Residencial Club Náutico Teques</span></h2>
+									<span class="font-bold">Residencial Club Náutico Teques</span></h3>
+									<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
+
 								</div>
 							</article>
 							
@@ -183,6 +191,140 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</article>
 						
 					</div>
+
+					<section>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12" style="padding: 5%;">
+									<h2 class="text-center">Venta de Departamentos con alberca, amenidades de lujo y vista al Lago de Tequesquitengo en Morelos
+										<br>
+									<span style="color: #989898; font-weight: 100;">Residencial Club Náutico Teques de Grupo Hodaya</span>  </h2>
+									<div class="row">
+										<div class="col-lg-3"></div>
+										<div class="col-lg-3 text-center">
+											<a href="http://grupohodaya.com" class="conocenos">Conócenos</a>
+										</div>
+										<div class="col-lg-3 text-center">
+											<a href="https://facebook.com/grupohodaya" class="siguenos"><i class="fa fa-facebook"></i>  Síguenos</a>
+										</div>
+										<div class="col-lg-3"></div>
+									</div>
+									
+									
+								</div>
+							</div>
+						</div>
+					</section>
+					<!--BEGIN: MODAL brochure-->
+						<div class="modal fade" id="descargarBrochure" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 class="modal-title" id="exampleModalLongTitle">Descarga el folleto completo</h3>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="row mb-5">
+										<div class="col-lg-12 text-center">
+											<p>Compártanos sus datos y descargue el brochure del Cluster 10 de Club Náutico.</p>
+											<br>
+										</div>
+									</div>
+									<form action="descargar_folleto.php" method="post" name="contactform" onsubmit="return submitUserForm();">
+										<div class="form-group">
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+													<input type="text" placeholder="Nombre Completo*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
+												</div>
+												<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+													<input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required>
+												</div>
+												<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+													<input type="text" placeholder="Teléfono*" class="form-control c-square c-theme input-lg mt-3" name="telephone" id="telephone" required style="margin-top: 10px;">
+												</div>
+											</div>
+										</div>
+										
+				
+									<div class="row mt-5">
+										<div class="col-lg-12 text-center">
+											<p><small>*Campos requeridos</small></p>
+											<br>
+										</div>
+									</div>
+									<input type="submit" name="submit_brochure" value="Ver Folleto" class="button btn-block">
+									
+								</form>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+						<!--END: Modal Brochure-->
+					<section>
+						<div class="container">
+							<div class="row">
+							<div class="col-lg-4" style="padding: 3%;">
+								<p>Residencial Club Náutico Teques, es un desarrollo de vanguardia que refleja todo lo que se espera de la arquitectura contemporánea, con espacios donde la funcionalidad y el buen gusto se conjugan. </p>
+								<p>Con más de 69,000 m² de áreas verdes, acceso exclusivo al Lago de Tequesquitengo y seguridad las 24 hrs del día, este desarrollo cuenta con amenidades de lujo como:</p>
+							</div>
+							<div class="col-lg-8">
+								<div class="row">
+									<div class="col-lg-6">
+										<h3>Amenidades del desarrollo</h3>
+											<ul>
+												<li>Muelle</li>
+												<li>Áreas Verdes</li>
+												<li>Mirador</li>
+												<li>Alberca</li>
+												<li>Palapa</li>
+												<li>Juegos Infantiles</li>
+												<li>Jacuzzi</li>
+											</ul>
+									</div>
+									<div class="col-lg-6">
+										<h3>Amenidades del Club House</h3>
+											<ul>
+												<li>Aquazona</li>
+												<li>Mini Golf</li>
+												<li>Cancha de Raquet</li>
+												<li>Terraza de eventos</li>
+												<li>Ajedrez gigante</li>
+												<li>Snack -Bar</li>
+												<li>Ludoteca</li>
+												<li>Cancha de usos múltiples</li>
+											</ul>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<p>Contamos con dos modelos de departamentos  de 3 recámaras, desde 72.82 m² + jardín , hasta 75.45 m² + Roof Garden. Tenemos diversas opciones de financiamiento. ¡Aprovecha esta oportunidad y disfruta esta inversión!</p>
+								<a href="tel:7774540165" class="llamanos text-center"><i class="fa fa-phone"></i>  Llámanos</a>
+								<br>
+								<br>
+							</div>
+						</div>
+					</div>
+					</section>
+					<section style="background-color: #f1f1f1;">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-7 call-to-action">
+									<h3>Invierte en un departamento en Morelos, que te <strong>generará ingresos extra</strong>.</h3>
+									<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Más Información</h3></button>
+								</div>
+								<div class="col-lg-5">
+									<img src="images/depa-teques.jpg" class="img-responsive">
+								</div>
+						</div>
+						</div>
+					</section>
 					
 					
 					<!-- UBICACION=================================== -->
@@ -237,6 +379,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</div></div>
 							</div>
 						</div>
+						
 						
 						<!-- aviso  ============================================= -->
 						<div class="section nomargin">
