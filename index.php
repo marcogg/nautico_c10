@@ -417,5 +417,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<!--<script type="text/javascript" src="js/jquery-1.12.4.js"></script>-->
 						<script type="text/javascript" src="js/jquery.js"></script>
 						<script type="text/javascript" src="js/functions.js"></script>
+
+						<div class="modal-covid" id="anuncio">
+                                        <center>
+                                            <div class="mensaje">
+                                                <i class="fas fa-info-circle fa-5x text-center" style="color: lightgray;"></i>
+                                            <p>Para nosotros es muy importante cuidar de nuestros clientes y en apoyo a la contingencia del Coronavirus (Covid-19) y para evitar su propagación, tomamos las siguientes medidas sanitarias.
+                                            <ul class="text-left">
+                                                <li>Si decides quedarte en casa, nuestro equipo de ventas te atenderá a través de nuestra línea telefónica: <a href="tel:8004442222"><b>800 444 2222</b></a> o vía WhatsApp al número <a href="https://wa.me/525551006590"><b>5551006590</b></a>, donde recibirás toda la información de la misma forma que si nos visitaras.
+												</li>
+                                                <li>En caso de que decidas agendar una visita, nuestro desarrollo contará con gel antibacterial y reforzaremos las medidas de limpieza e higiene diarias en los lugares donde transcurren las personas.</li>
+                                            </ul> 
+                                           En Club Náutico Teques lo más importante es la salud de nuestros clientes.
+                                            </p>
+                                            <button class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" onclick="cerrarAnuncio()">Cerrar</button>
+                                            </div>
+                                        </center>
+                                           
+                                    </div>
+                                <!-- Aviso COVID-->
+                                <script type="text/javascript">
+
+                                var get = document.getElementById("anuncio");
+                                
+                                function cerrarAnuncio(){
+                                    get.style.display="none";
+                                };
+                                
+                                
+                            </script>
+
 					</body>
 				</html>
