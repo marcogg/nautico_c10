@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							
 							<div class="swiper-slide dark">
 								<div class="video-wrap">
-									<iframe width="853" height="480" src="https://www.youtube.com/embed/iMVc1xPxkZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="853" height="480" src="https://www.youtube.com/embed/rRFlwBXqz2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div>
 							
@@ -153,7 +153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							
 							<article class="portfolio-item">
 								<div class="video-wrap">
-									<iframe width="853" height="480" src="https://www.youtube.com/embed/iMVc1xPxkZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen volume="0"></iframe>
+									<iframe width="853" height="480" src="https://www.youtube.com/embed/rRFlwBXqz2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</article>
 						</div>

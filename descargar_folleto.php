@@ -3,7 +3,7 @@
 if(isset($_POST['mail'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "digital@grupohodaya.com, mgarcia@grupohodaya.com, rcruz@grupohodaya.com";
+    $email_to = "digital@grupohodaya.com, mgarcia@grupohodaya.com, rcruz@grupohodaya.com, cherrera@grupohodaya.com, lsapien@grupohodaya.com, chernandez@grupohodaya.com";
     $email_subject = "Club Náutico teques: Nueva entrada desde Descarga de Brochure";
  
     function died($error) {
@@ -79,10 +79,10 @@ if(isset($_POST['mail'])) {
  
      
     $email_message .= "Nombre: ".clean_string($first_name)."\n"; 
-    $email_message .= "Apellido: ".clean_string($last_name)."\n";
+    //$email_message .= "Apellido: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Tel: ".clean_string($telephone)."\n";
-    $email_message .= "Estado: ".clean_string($selected_val)."\n";
+    //$email_message .= "Estado: ".clean_string($selected_val)."\n";
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".

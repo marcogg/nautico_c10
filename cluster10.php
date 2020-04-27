@@ -163,7 +163,7 @@
 					</div>
 					<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-12" style="height: 400px;">
 						<div style="margin: auto; position: relative; top: 35%; line-height: 0;">
-							<h2 class="text-uppercase text-center" style="font-size: 3em; line-height: 0;">Tu hogar con vista <br></h2>
+							<h2 class="text-uppercase text-center" style="font-size: 3em;">Tu hogar con vista <br></h2>
 							<h1 class="text-uppercase text-center" style="background-color:#124889; color: white;">espectacular</h1>
 							<hr style="bottom-border:5px #1abc9c solid; ">
 						</div>
@@ -274,6 +274,9 @@
 
 
 <!-- FIN DEPAS -->
+<section>
+	<iframe src="https://www.youtube.com/embed/rRFlwBXqz2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
 
 <!--Recorrido virtual-->
 <section>
