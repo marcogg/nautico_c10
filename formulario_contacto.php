@@ -23,7 +23,7 @@ if(isset($_POST['mail'])) {
     if(!isset($_POST['first_name']) ||
         //!isset($_POST['last_name']) ||
         !isset($_POST['mail']) ||
-        !isset($_POST['telephone']) //||
+        !isset($_POST['telephone']) ||
         !isset($_POST['comments'])
       )
          {
