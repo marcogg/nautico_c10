@@ -25,19 +25,19 @@
 							</li>
 						<!-- 	<li><a href="casas"><div>Casas</div></a>
 							</li>-->
-							<li><a href="departamentos"><div>Departamentos</div></a>
+							<li><a href="departamentos.php"><div>Departamentos</div></a>
 							</li>
-							<li class="cluster10"><a href="cluster10">Nueva Etapa</a>
+							<li class="cluster10.php"><a href="cluster10">Nueva Etapa</a>
 							</li>
-							<li><a href="amenidades"><div>Amenidades</div></a>
+							<li><a href="amenidades.php"><div>Amenidades</div></a>
 							</li>
-							<li><a href="desarrollo"><div>Desarrollo</div></a>
+							<li><a href="desarrollo.php"><div>Desarrollo</div></a>
 							</li>
-							<li><a href="avances"><div>Avances de obra</div></a>
+							<li><a href="avances.php"><div>Avances de obra</div></a>
 							</li>
-							<li><a href="promociones"><div>Promociones</div></a>
+							<li><a href="promociones.php"><div>Promociones</div></a>
 							</li>
-							<li><a href="contacto"><div>Contacto</div></a>
+							<li><a href="contacto.php"><div>Contacto</div></a>
 							</li>							
                             <li><a href="https://clubnauticoteques.com/blog/" target="_blank"><div>Blog</div></a>
 							</li>
