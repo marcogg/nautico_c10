@@ -56,20 +56,20 @@
 								<p>
 									Monto de descuento: $150,000
 									<br>
-									Vigencia: del 23 de marzo al 30 de abril del 2020
+									Vigencia: del 23 de marzo al 15 de junio del 2020
 									<br>
 									Prototipos: cluster 10, para las ubicaciones del bloque 1,2 y 3 
 									<br>
 									Siendo exclusiva para los clientes que integren su expediente en un lapso no mayor a 14 días naturales a partir de la fecha del cierre de venta y que realicen el pago de la reservación al 100%. No aplica con otras promociones o descuentos.
 								</p>
-								<p>Compra un departamento en Club Náutico Teques del 23 de marzo al 30 de abril del 2020 con precios del 2019, siendo exclusiva para los clientes que integren su expediente completo en un lapso no mayor a 14 días naturales a partir de la fecha del cierre de la venta y que realicen el pago de la reservación al 100%. No aplica con otras promociones o descuentos.  </p>
+								<p>Compra un departamento en Club Náutico Teques del 23 de marzo al 15 de junio del 2020 con precios del 2019, siendo exclusiva para los clientes que integren su expediente completo en un lapso no mayor a 14 días naturales a partir de la fecha del cierre de la venta y que realicen el pago de la reservación al 100%. No aplica con otras promociones o descuentos.  </p>
 								
 							</div>
 							<div class="col-lg-6" style="line-height: 1.4;">
 								<h3>RESTRICCIONES:</h3>
 								<ol>
 									<li>El descuento se aplicará al precio de la propiedad, para hacer valido el descuento el asesor inmobiliario deberá entregar el vale original al cliente.</li>
-									<li>Promoción valida a partir del 23 de marzo del 2020 al 30 de abril del 2020. </li>
+									<li>Promoción valida a partir del 23 de marzo del 2020 al 15 de junio del 2020. </li>
 									<li>Exclusivamente para los clientes que integren su expediente en un lapso no mayor a 14 días naturales a partir del cierre de la venta</li>
 									<li>No aplica con otras promociones </li>
 									<li>El descuento se explicará durante la compra /venta, el asesor deberá hacer entrega de un vale con la descripción y firmas de autorización correspondientes.</li>
