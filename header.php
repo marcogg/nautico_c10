@@ -27,7 +27,7 @@
 							</li>-->
 							<li><a href="departamentos.php"><div>Departamentos</div></a>
 							</li>
-							<li class="cluster10.php"><a href="cluster10">Nueva Etapa</a>
+							<li class="cluster10"><a href="cluster10.php">Nueva Etapa</a>
 							</li>
 							<li><a href="amenidades.php"><div>Amenidades</div></a>
 							</li>
