@@ -51,7 +51,8 @@
 						<p class="text-center text-lg-center">
 							Conoce la nueva etapa del Residencial Club Náutico Teques, con 56 viviendas y amenidades exclusivas.<br>
 						4 cómodos departamentos por edificio con roof garden o jardín privado</p>
-						<p class="text-center text-lg-center">Departamentos de 3 recámaras con Jardín o Roof Garden desde 72.82 m², <br>con amenidades de lujo y <b>acceso inmejorable al Lago de Tequesquitengo</b> en Morelos.  </p>
+						<p class="text-center text-lg-center">Departamentos de 3 recámaras con Jardín o Roof Garden desde 72.82 m², <br>con amenidades de lujo y <b>acceso inmejorable al Lago de Tequesquitengo</b> en Morelos.</p>
+						<p class="text-center text-lg-center"><b>Desde $1,532,000</b></p>
 						<div class="text-center">
 							<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
 						</div>

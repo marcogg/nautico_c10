@@ -53,6 +53,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p class="text-center">
                             Residencial Club Náutico Teques te ofrece 6 modelos de departamentos en el Cluster 12 con la mejor distribución.<br>
                         Elige la mejor opción que se adapte a tus gustos y estilo de vida.</p>
+                        <p class="text-center"><b>Departamentos desde $1,300,000</b></p>
                         <div class="text-center"><a href="CARPETA_CLUSTER_12.pdf" target="_blank" class="button">descargar brouchure</a></div>
                     </div>
                 </div>

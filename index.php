@@ -135,6 +135,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="col-lg-8 col-lg-offset-2" style="padding-top: 5%;">
 								<h1 class="encabezado text-center">Venta de Departamentos con Vista al Lago de Tequesquitengo en Morelos
 									<br><span style="color: #989898; font-weight: 100;">Residencial Club Náutico Teques de Grupo Hodaya</span></h1>
+									<h3 class="text-center">Departamentos desde $1,300,000</h3>
 							</div>
 						</div>
 						
@@ -171,6 +172,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							
 								<div class="portfolio-overlay">
 									<a href="cluster10.php"><h3 class="text-center">CLUSTER 10</h3></a>
+									
 								</div>
 							
 							</div>
@@ -185,6 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								
 									<div class="portfolio-overlay">
 										<a href="departamentos.php"><h3>DEPARTAMENTOS</h3></a>
+										
 									</div>
 								
 							</div>
