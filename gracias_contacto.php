@@ -42,7 +42,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="section text-center">
 						<h2>Gracias por contactarnos</h2>
 						<h4>En breve un ejecutivo te atenderá. Si necesitas información inmedita, puedes contactarnos vía WhatsApp</h4>
-						<a class="btn btn-success btn-lg" href="https://wa.me/525573552395"><i class="fab fa-whatsapp" style="color:white;"></i> Enviar mensaje</a>
+						<a class="btn btn-success btn-lg" href="https://wa.me/525539983170"><i class="fab fa-whatsapp" style="color:white;"></i> Enviar mensaje</a>
 						<br>
 						<br>
 						<iframe src="https://drive.google.com/file/d/1OTFRhf7fhJCczvsK9ynIiTwUyYAgNNGK/preview" style="width: 100%; height: 650px;"></iframe>

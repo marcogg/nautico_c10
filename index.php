@@ -427,7 +427,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <i class="fas fa-info-circle fa-5x text-center" style="color: lightgray;"></i>
                                             <p>Para nosotros es muy importante cuidar de nuestros clientes y en apoyo a la contingencia del Coronavirus (Covid-19) y para evitar su propagación, tomamos las siguientes medidas sanitarias.
                                             <ul class="text-left">
-                                                <li>Si decides quedarte en casa, nuestro equipo de ventas te atenderá a través de nuestra línea telefónica: <a href="tel:8004442222"><b>800 444 2222</b></a> o vía WhatsApp al número <a href="https://wa.me/525551006590"><b>5551006590</b></a>, donde recibirás toda la información de la misma forma que si nos visitaras.
+                                                <li>Si decides quedarte en casa, nuestro equipo de ventas te atenderá a través de nuestra línea telefónica: <a href="tel:7774540165"><b>7774540165</b></a> o vía WhatsApp al número <a href="https://wa.me/525539983170"><b>5539983170</b></a>, donde recibirás toda la información de la misma forma que si nos visitaras.
 												</li>
                                                 <li>En caso de que decidas agendar una visita, nuestro desarrollo contará con gel antibacterial y reforzaremos las medidas de limpieza e higiene diarias en los lugares donde transcurren las personas.</li>
                                             </ul> 
