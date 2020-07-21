@@ -237,6 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                 <ul class="iconlist">
                                                                                                     <li>2 o 3 recámaras • Estancia-Comedor • Cocina • Jardín o Balcón <br> Patio de servicio • 2 baños completos  • Roof Garden solo en PH • Estacionamiento</li>
                                                                                                 </ul>
+                                                                                                <h3><strong>Desde $1,300,000 mas gastos de escrituración</strong></h3>
                                                                                             </div>
                                                                                             <div><a href="CARPETA CLUSTER 12-TB_BAJA.pdf" target="_blank" class="button">descargar brouchure</a></div>
                                                                                         </div>
@@ -267,6 +268,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                 <ul class="iconlist">
                                                                                                                     <li>3 recámaras • Estancia-Comedor • Cocina • Jardín o Balcón • Patio de servicio <br> 2 baños completos  • Roof Garden solo en PH • Estacionamiento</li>
                                                                                                                 </ul>
+                                                                                                                <h3><strong>Desde $1,490,000 mas gastos de escrituración</strong></h3>
                                                                                                             </div>
                                                                                                             <div><a href="CARPETA CLUSTER 12-TB_BAJA.pdf" target="_blank" class="button">descargar brouchure</a></div>
                                                                                                         </div>

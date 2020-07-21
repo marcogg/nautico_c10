@@ -218,6 +218,7 @@
 												<li>3 recámaras • Estancia-Comedor • Cocina • Jardín Privado • Jacuzzi (opcional)<br>
 												Cuarto de lavado • 2 baños completos • Estacionamiento</li>
 											</ul>
+											<h3><strong>Desde $1,572,000 más gastos de escrituración</strong></h3>
 										</div>
 										<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
 									</div>
@@ -257,6 +258,7 @@
 											<ul class="iconlist">
 												<li>3 recámaras • Estancia-Comedor • Cocina •  Balcón•  Cuarto de lavado <br> • 2 baños completos  • Roof Garden Privado •   Jacuzzi y Pérgola (opcionales)  •  Estacionamiento</li>
 											</ul>
+											<h3><strong>Desde $1,675,000 más gastos de escrituración</strong></h3>
 										</div>
 										<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
 									</div>
