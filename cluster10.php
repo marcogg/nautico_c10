@@ -52,7 +52,7 @@
 							Conoce la nueva etapa del Residencial Club Náutico Teques, con 56 viviendas y amenidades exclusivas.<br>
 						4 cómodos departamentos por edificio con roof garden o jardín privado</p>
 						<p class="text-center text-lg-center">Departamentos de 3 recámaras con Jardín o Roof Garden desde 72.82 m², <br>con amenidades de lujo y <b>acceso inmejorable al Lago de Tequesquitengo</b> en Morelos.</p>
-						<p class="text-center text-lg-center"><b>Desde $1,532,000</b></p>
+						<p class="text-center text-lg-center"><b>Desde $1,700,000</b></p>
 						<div class="text-center">
 							<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
 						</div>
@@ -218,7 +218,7 @@
 												<li>3 recámaras • Estancia-Comedor • Cocina • Jardín Privado • Jacuzzi (opcional)<br>
 												Cuarto de lavado • 2 baños completos • Estacionamiento</li>
 											</ul>
-											<h3><strong>Desde $1,572,000 más gastos de escrituración</strong></h3>
+											<h3><strong>Desde $1,700,000</strong></h3>
 										</div>
 										<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
 									</div>
@@ -258,7 +258,7 @@
 											<ul class="iconlist">
 												<li>3 recámaras • Estancia-Comedor • Cocina •  Balcón•  Cuarto de lavado <br> • 2 baños completos  • Roof Garden Privado •   Jacuzzi y Pérgola (opcionales)  •  Estacionamiento</li>
 											</ul>
-											<h3><strong>Desde $1,675,000 más gastos de escrituración</strong></h3>
+											<h3><strong>Desde $1,810,000</strong></h3>
 										</div>
 										<button type="button" class="button" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;"><h3>Descargar Folleto</h3></button>
 									</div>
