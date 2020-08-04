@@ -46,18 +46,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="swiper-container swiper-parent">
 						<div class="swiper-wrapper">
 							<!--SLIDER DE PROMO COVID-->
-							<div class="swiper-slide" style="background-image: url('images/covid.jpg'); background-position: center top;">
+							<!-- <div class="swiper-slide" style="background-image: url('images/covid.jpg'); background-position: center top;">
 								<div class="container clearfix">
 									<div class="slider-caption slider-caption-center">
 										<div class="emphasis-title nomargin img-responsive" data-caption-animate="fadeInUp">
 										<img src="images/frase_covid.png" alt=""/> </div>
 									</div>-->
 									<!--CAPTION-->
-									<div class="slider-caption">
+									<!--<div class="slider-caption">
 											<div data-caption-animate="fadeInUp"> <img src="" alt=""/></div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							<!--SLIDER DE PROMO-->
 							<div class="swiper-slide" style="background-image: url('images/c10.jpg'); background-position: center top;">
 								<div class="container clearfix">

@@ -49,7 +49,8 @@
 								<center><img src="images/referidos.jpg" alt="Gallery Image"  style="padding:10px"></center>
 							</a>
 						</div>
-						<div class="col-lg-12" style="padding: 5%; margin: 5%; background-color: #F2F2F2; color: #173253;">
+						<!-- INICIO: PROMO COVID -->
+						<!-- <div class="col-lg-12" style="padding: 5%; margin: 5%; background-color: #F2F2F2; color: #173253;">
 							<img src="images/covid-mecanica.jpg" class="img-responsive">
 							<div class="col-lg-6" style="line-height: 1.4;">
 								<h3>Promoción: En apoyo a la contingencia sanitaria, precios del 2019 </h3>
@@ -81,7 +82,7 @@
 								</ol>
 							</div>
 							
-						</div>
+						</div> -->
 					</div>
 				</div>
 				
